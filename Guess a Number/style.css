@@ -1,0 +1,25 @@
+body{
+    font-family: cursive;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    margin: 20px;
+}
+button{
+    margin-top: 12px;
+    background-color: rgb(160, 59, 255);
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: larger;
+}
+input{
+    width: 300px;
+}
+.restart:disabled{
+    cursor: not-allowed;
+}
+.submit:disabled{
+    cursor: not-allowed;
+}
